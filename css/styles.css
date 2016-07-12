@@ -1,0 +1,16 @@
+h1 {
+	font-family: 'Unica One', cursive;
+	font-size: 4em;
+	text-align: center;
+}
+
+img {
+	height: 10em;
+}
+
+.image-1 {
+	background-image: url("../images/1_watermark.png");
+	height: 15em;
+	width: auto;
+	background-size: cover;
+}
