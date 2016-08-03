@@ -1,16 +1,132 @@
 h1 {
-	font-family: 'Unica One', cursive;
+	font-family: 'Fjalla One', cursive;
 	font-size: 4em;
 	text-align: center;
+	margin-top: 1em;
+	text-transform: uppercase;
 }
 
 img {
-	height: 10em;
+	width: 35%;
 }
+
+#nav {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Fjalla One", cursive;
+	font-size: 2.5em;
+}
+
+li {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+
+a, a:active, a:visited {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+.view.ng-enter {
+	animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#about {
+	font-family: "Arial";
+	text-transform: none;
+	font-size: 1.25em;
+	margin: 1.5em auto;
+	text-align: left;
+	width: 65%;
+}
+
+#container {
+ width: 1200px;
+ margin: 0em auto;
+}
+
+/*Media Queries*/
+@media only screen and (max-width : 1199px),
+only screen and (max-device-width : 1199px){
+ #container {
+ width: 1000px;
+ }
+}
+ 
+ 
+@media only screen and (max-width : 999px),
+only screen and (max-device-width : 999px){
+ #container {
+ width: 800px;
+ }
+}
+ 
+@media only screen and (max-width : 799px),
+only screen and (max-device-width : 799px){
+ #container {
+ width: 600px;
+ }
+}
+ 
+@media only screen and (max-width : 599px),
+only screen and (max-device-width : 599px){
+ #container {
+ width: 400px;
+ }
+}
+ 
+@media only screen and (max-width : 399px),
+only screen and (max-device-width : 399px){
+ #container {
+ width: 200px;
+ }
+}
+/* image backgrounds*/
 
 .image-1 {
 	background-image: url("../images/1_watermark.png");
 	height: 15em;
 	width: auto;
 	background-size: cover;
+	border-radius: 1em;
+}
+
+.image-2 {
+	background-image: url("../images/2_watermark.png");
+	height: 15em;
+	width: auto;
+	background-size: cover;
+	border-radius: 1em;
+}
+
+.image-4 {
+	background-image: url("../images/4_watermark.png");
+	height: 15em;
+	width: auto;
+	background-size: cover;
+	border-radius: 1em;
+}
+
+.image-5 {
+	background-image: url("../images/5_watermark.png");
+	height: 15em;
+	width: auto;
+	background-size: cover;
+	border-radius: 1em;
+}
+
+.image-6 {
+	background-image: url("../images/6_watermark.png");
+	height: 15em;
+	width: auto;
+	background-size: cover;
+	border-radius: 1em;
 }
